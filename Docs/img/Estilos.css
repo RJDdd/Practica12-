@@ -1,0 +1,53 @@
+/* Tamaño de letra para el body */
+body {
+  font-size: 16px;
+}
+
+/* Familia de fuente de Google Fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Color de letra y color de fondo para el body */
+body {
+  color: #394244; /* Color de letra negro */
+  background-color: #f2f2f2; /* Gris claro */
+}
+
+/* Color de letra para los enlaces */
+a {
+  color: #007bff; /* Azul */
+}
+
+/* Color de letra en hover para los enlaces */
+a:hover {
+  color: #0056b3; /* Azul más oscuro */
+}
+
+/* Propiedad max-width para imágenes y videos responsivos */
+img, iframe {
+  max-width: 100%;
+}
+
+/* Ancho al 100% para la tabla */
+table {
+  width: 100%;
+}
+
+/* Clases utilitarias */
+/* Ejemplo de clase utilitaria para centrar texto */
+.text-center {
+  text-align: center;
+}
+
+/* Ejemplo de clase utilitaria para cambiar el color de fondo */
+.bg-red {
+  background-color: #ff0000; /* Rojo */
+}
+
+/* Variables CSS */
+:root {
+  --primary-color: #007bff; /* Azul */
+  --secondary-color: #0056b3; /* Azul más oscuro */
+  --background-color: #f2f2f2; /* Gris claro */
+}
