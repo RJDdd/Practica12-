@@ -10,8 +10,8 @@ body {
 
 /* Color de letra y color de fondo para el body */
 body {
-  color: #394244; /* Color de letra negro */
-  background-color: #f2f2f2; /* Gris claro */
+  color: #f2f2f2; /* Color de letra negro */
+  background-color:#394244; /* Gris claro */
 }
 
 /* Color de letra para los enlaces */
