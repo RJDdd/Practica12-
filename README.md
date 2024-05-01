@@ -1,4 +1,5 @@
 # Rajid Luan Dokins Damiao
 ## Enlace al Documento HTML
 
-Puedes encontrar el documento HTML desplegado en GitHub Pages [aquí](https://rjddd.github.io/Practica12-/).
+Index original de la practica [12 y 13](https://rjddd.github.io/Practica12-/).
+Index con bootstrap de la practica [14](https://rjddd.github.io/Practica12-/).

@@ -1,52 +1,58 @@
 :root {
-  --primary-color: #ff0000;
-  --secondary-color: #b30000;
-  --background-color: #000000;
+  --primary-color: #312f2f;
+  --secondary-color: #53676a;
+  --background-color: #49495c;
 }
-
 
 body {
-  font-size: 16px;
+  background-color: var(--background-color);
+  color: var(--primary-color);
 }
 
-
-body {
-  font-family: 'Chakra Petch', sans-serif;
+.navbar {
+  background-color: var(--secondary-color);
 }
 
-
-body {
-  color: #f2f2f2; 
-  background-color:#394244;
+.vertical-nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  flex-direction: column;
+  align-items: flex-end;
 }
 
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+}
 
-a {
+.navbar-nav .nav-link:hover {
   color: #007bff;
-  color:var(--primary-color)
 }
 
-
-a:hover {
-  color: #00b371; 
-}
-
-
-img, iframe {
-  max-width: 100%;
-}
-
-
-table {
-  width: 100%;
-}
-
-
-.text-center {
+.container {
   text-align: center;
+  background-color: #b9b4b4;
+  padding: 20px;
+  border-radius: 10px;
 }
 
+.vertical-line {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 5px;
+  background-color: #7979ca;
+}
 
-.bg-red {
-  background-color: #00ff4c;
+@media (max-width: 768px) {
+  .vertical-nav {
+    display: none;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
